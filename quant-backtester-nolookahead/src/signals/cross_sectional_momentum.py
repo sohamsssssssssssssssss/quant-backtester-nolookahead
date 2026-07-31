@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 from typing import Dict
 
-from signals.signals import momentum_12_1
+from src.signals.signals import momentum_12_1
 
 
 def rank_momentum(
