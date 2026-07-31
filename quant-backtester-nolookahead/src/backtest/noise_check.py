@@ -25,8 +25,8 @@ from typing import Callable, Dict, List, Tuple, Optional
 from collections import Counter
 import logging
 
-from backtest.walk_forward import run_walk_forward
-from signals.signals import moving_average_crossover
+from src.backtest.walk_forward import run_walk_forward
+from src.signals.signals import moving_average_crossover
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)

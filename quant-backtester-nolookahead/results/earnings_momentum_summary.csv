@@ -1,0 +1,5 @@
+metric,value
+combined_cagr,-0.003655395777225956
+combined_sharpe,-0.06758281643000373
+combined_max_drawdown,0.195973677095415
+num_folds,5.0

@@ -17,7 +17,7 @@ import numpy as np
 from typing import Dict, Optional, Tuple
 from dataclasses import dataclass
 
-from backtest.engine import BacktestEngine
+from src.backtest.engine import BacktestEngine
 
 
 @dataclass

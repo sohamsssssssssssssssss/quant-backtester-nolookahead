@@ -20,8 +20,8 @@ from typing import Callable, Dict, List, Optional, Any
 import logging
 import sys
 
-from data.loader import load_ohlcv, clean_ohlcv
-from backtest.walk_forward import run_walk_forward, aggregate_walk_forward_results
+from src.data.loader import load_ohlcv, clean_ohlcv
+from src.backtest.walk_forward import run_walk_forward, aggregate_walk_forward_results
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')

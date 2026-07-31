@@ -21,8 +21,8 @@ import numpy as np
 from typing import Callable, Dict, List, Tuple, Optional
 from datetime import timedelta
 
-from backtest.engine import BacktestEngine, BacktestResult
-from metrics.performance import (
+from src.backtest.engine import BacktestEngine, BacktestResult
+from src.metrics.performance import (
     sharpe_ratio, sortino_ratio, max_drawdown, 
     calmar_ratio, win_rate, summary
 )
